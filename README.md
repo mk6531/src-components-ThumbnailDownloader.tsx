@@ -1,538 +1,403 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- SEO Optimized Title -->
-        <title>Free WebP Converter Online | Reduce Image Size 80% | JPG PNG to WebP</title>
-        
-        <!-- SEO Optimized Meta Description -->
-        <meta
-            name="description"
-            content="Free online WebP converter tool. Convert JPG, PNG, GIF, BMP to WebP format instantly. Reduce image file size up to 80% while maintaining quality. No upload required - 100% secure client-side processing. Mobile-friendly image optimization for faster websites."
-        />
-        
-        <!-- Comprehensive SEO Keywords with LSI Keywords -->
-        <meta
-            name="keywords"
-            content="webp converter, free webp converter online, jpg to webp, png to webp, gif to webp, bmp to webp, image to webp converter, webp format converter, online image converter, image optimization tool, reduce image size, compress images online, webp encoder, image file size reducer, web image optimizer, convert images webp, webp conversion tool, image compression webp, fast image converter, secure image converter, client side image processing, browser image converter, mobile image optimizer, website speed optimization, image seo optimization, next gen image format, google webp, lossless image compression, lossy image compression, batch image converter, bulk webp conversion"
-        />
-        <meta name="author" content="WebPImage.Online" />
-
-        <!-- Enhanced Open Graph Meta Tags -->
-        <meta property="og:title" content="Free WebP Converter Online | Reduce Image Size 80%" />
-        <meta property="og:description" content="Convert JPG, PNG, GIF, BMP to WebP format instantly. Reduce image file size up to 80% while maintaining quality. No upload required - 100% secure client-side processing." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://webpimage.online" />
-        <meta property="og:image" content="https://webpimage.online/og-image.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Free WebP Converter Tool - Convert Images Online" />
-        <meta property="og:site_name" content="WebPImage.Online" />
-        <meta property="og:locale" content="en_US" />
-
-        <!-- Enhanced Twitter Card Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@WebPImageOnline" />
-        <meta name="twitter:title" content="Free WebP Converter | Reduce Image Size 80%" />
-        <meta name="twitter:description" content="Convert images to WebP format instantly. Free, fast, and secure online tool with client-side processing." />
-        <meta name="twitter:image" content="https://webpimage.online/twitter-image.jpg" />
-        <meta name="twitter:image:alt" content="WebP Converter Tool Screenshot" />
-
-        <!-- Canonical URL -->
-        <link rel="canonical" href="https://webpimage.online" />
-        
-        <!-- XML Sitemap and Robots -->
-        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-
-        <!-- Favicon and Icons -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Free WebP Converter - Bulk JPG, PNG to WebP Online | 100% Private & Fast</title>
+    <meta name="description" content="Convert images to WebP instantly. Bulk JPG, PNG, GIF, SVG, BMP, AVIF to WebP conversion. 100% free, no uploads, boost SEO & Core Web Vitals. Advanced compression controls.">
+    
+    <link rel="canonical" href="https://webpimage.online">
+    
+    <!-- Favicon and Icons -->
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-
-        <!-- Preload Critical Resources -->
-        <link rel="preload" href="styles.css" as="style" />
-        <link rel="preload" href="script.js" as="script" />
-
-        <!-- Stylesheet -->
-        <link rel="stylesheet" href="styles.css" />
-
-        <!-- Performance Optimization -->
-        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Expires" content="0" />
         
-        <!-- DNS Prefetch for Performance -->
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//www.google-analytics.com" />
-        
-        <!-- Enhanced Structured Data -->
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": ["WebApplication", "SoftwareApplication"],
-                "name": "Free WebP Converter Online",
-                "alternateName": "WebPImage.Online",
-                "description": "Convert JPG, PNG, GIF, BMP images to WebP format online for free. Reduce image file size up to 80% while maintaining quality. No upload required - 100% secure client-side processing.",
-                "url": "https://webpimage.online",
-                "sameAs": [
-                    "https://webpimage.online"
-                ],
-                "applicationCategory": ["DesignApplication", "DeveloperApplication", "MultimediaApplication"],
-                "applicationSubCategory": "Image Converter",
-                "operatingSystem": ["Web Browser", "Windows", "macOS", "Linux", "iOS", "Android"],
-                "softwareVersion": "1.0",
-                "dateCreated": "2025-01-01",
-                "dateModified": "2025-09-09",
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "bestRating": "5",
-                    "worstRating": "1",
-                    "ratingCount": "1247"
-                },
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                    "availability": "https://schema.org/InStock",
-                    "priceValidUntil": "2025-12-31"
-                },
-                "creator": {
-                    "@type": "Organization",
-                    "name": "WebPImage.Online",
-                    "url": "https://webpimage.online",
-                    "logo": "https://webpimage.online/logo.png"
-                },
-                "featureList": [
-                    "JPG to WebP conversion",
-                    "PNG to WebP conversion", 
-                    "GIF to WebP conversion",
-                    "BMP to WebP conversion",
-                    "Quality adjustment control",
-                    "Batch image conversion",
-                    "File size comparison",
-                    "Instant download",
-                    "Client-side processing",
-                    "Privacy protection",
-                    "Mobile responsive interface",
-                    "No file size limits",
-                    "Drag and drop upload"
-                ],
-                "screenshot": "https://webpimage.online/screenshot.jpg",
-                "softwareHelp": {
-                    "@type": "CreativeWork",
-                    "url": "https://webpimage.online#faq"
-                },
-                "installUrl": "https://webpimage.online",
-                "permissions": "No special permissions required",
-                "storageRequirements": "Temporary browser storage only",
-                "memoryRequirements": "Minimal",
-                "processorRequirements": "Any modern web browser"
-            }
-        </script>
-        
-        <!-- FAQ Structured Data -->
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "What is WebP format and why should I use it?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "WebP is a modern image format developed by Google that provides superior compression for web images. It reduces file sizes by 25-80% compared to JPEG and PNG while maintaining the same visual quality, resulting in faster website loading times and better SEO rankings."
-                        }
-                    },
-                    {
-                        "@type": "Question", 
-                        "name": "Is my data safe when using this converter?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Absolutely! All image conversion happens locally in your browser using JavaScript. Your images are never uploaded to our servers or any third-party services. They remain completely private on your device throughout the entire process."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What image formats can I convert to WebP?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Our converter supports the most common image formats: JPEG/JPG, PNG, GIF, and BMP. You can convert single images or multiple images at once using our batch conversion feature."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "How do I choose the right quality setting?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "For most web images, 80-85% quality provides the best balance of file size and visual quality. Use 90-95% for images with fine details or text, and 60-75% for images where smaller file size is more important than perfect quality."
-                        }
-                    }
-                ]
-            }
-        </script>
-
-        <!-- Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-            gtag("config", "GA_MEASUREMENT_ID");
-        </script>
-    </head>
-    <body>
-        <!-- Header -->
-        <header class="header">
-            <div class="container">
-                <div class="logo">WebPImage.Online</div>
-                <p class="tagline">Convert Images to WebP Format Instantly</p>
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://webpimage.online/">
+    <meta property="og:title" content="Free WebP Converter - Bulk Image to WebP Online">
+    <meta property="og:description" content="Convert images to WebP instantly. 100% free, private, unlimited bulk conversion. Boost SEO & site speed.">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Free WebP Converter - Bulk Image to WebP Online">
+    <meta property="twitter:description" content="Convert images to WebP instantly. 100% free, private, unlimited bulk conversion.">
+    
+    <!-- Structured Data - WebApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "WebP Image Converter",
+      "url": "https://webpimage.online",
+      "description": "Free bulk image to WebP converter. Convert JPG, PNG, GIF, SVG, BMP, AVIF to WebP instantly with advanced compression settings.",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": "Bulk conversion, Privacy-first, Advanced compression, Resize options, Format support: JPG/PNG/GIF/SVG/BMP/AVIF"
+    }
+    </script>
+    
+    <!-- Structured Data - FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is my data safe when using this converter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely safe! Your files never leave your device. All processing happens locally in your browser using client-side technology."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast is the conversion process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conversion is nearly instantaneous. Processing happens directly in your browser using HTML5 Canvas API, with no server uploads required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which image formats are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We support JPG, JPEG, PNG, GIF, SVG, BMP, and AVIF image formats for conversion to WebP."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does WebP improve SEO and website performance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WebP images are 25-34% smaller than JPEG and 26% smaller than PNG according to Google. Smaller images improve page load speed, Core Web Vitals scores, and user experience, which are all ranking factors for search engines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there file size or quantity limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No limits! Process as many images as you want, with any file size. All processing happens locally in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I resize and compress images during conversion?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! You can adjust quality settings (1-100%) and set maximum width or height dimensions. Aspect ratios are automatically maintained."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What browsers support WebP images?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WebP is supported by 96.3% of browsers globally, including all modern versions of Chrome, Firefox, Safari (14+), Edge, and Opera."
+          }
+        }
+      ]
+    }
+    </script>
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G2VV3Y8EE"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-1G2VV3Y8EE'); </script>
+    
+</head>
+<body>
+    <!-- Header -->
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="#" class="logo" aria-label="WebP Image Converter Home">webpimage.online</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#converter">Converter</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Free WebP Converter - Bulk Image to WebP Online</h1>
+            <p class="hero-subtitle">
+                Convert JPG, PNG, GIF, SVG, BMP, AVIF to WebP instantly. 100% free, unlimited conversions, complete privacy. 
+                Boost SEO rankings, improve Core Web Vitals &amp; save 25-35% file size according to Google.
+            </p>
+            <div class="browser-badges" role="list" aria-label="Browser compatibility">
+                <span class="badge" role="listitem">Chrome Supported</span>
+                <span class="badge" role="listitem">Firefox Supported</span>
+                <span class="badge" role="listitem">Safari Supported</span>
+                <span class="badge" role="listitem">Edge Supported</span>
             </div>
-        </header>
-
-        <!-- Main Content -->
-        <main class="main">
-            <div class="container">
-                <!-- Hero Section -->
-                <section class="hero">
-                    <h1 class="hero-title">Free WebP Converter Online</h1>
-                    <p class="hero-subtitle">
-                        Convert JPG, PNG, GIF, BMP images to WebP format for
-                        better web performance. Reduce file size by up to 80%
-                        while maintaining quality. <strong>100% secure client-side processing</strong> - your images never leave your device.
-                    </p>
-                    
-                    <!-- Privacy and Benefits Highlights -->
-                    <div class="benefits-strip">
-                        <span class="benefit-item">🔒 100% Private & Secure</span>
-                        <span class="benefit-item">⚡ Lightning Fast</span>
-                        <span class="benefit-item">📱 Mobile Friendly</span>
-                        <span class="benefit-item">🆓 Completely Free</span>
-                    </div>
-
-                    <!-- Converter Interface -->
-                    <div class="converter-container">
-                        <!-- Upload Area -->
-                        <div class="upload-area" id="uploadArea">
-                            <div class="upload-content">
-                                <svg
-                                    class="upload-icon"
-                                    width="64"
-                                    height="64"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    role="img"
-                                    aria-label="Upload images icon for WebP converter"
-                                >
-                                    <path
-                                        d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
-                                    ></path>
-                                    <polyline
-                                        points="7,10 12,15 17,10"
-                                    ></polyline>
-                                    <line x1="12" y1="15" x2="12" y2="3"></line>
-                                </svg>
-                                <h3>Drop your images here</h3>
-                                <p>
-                                    or
-                                    <span class="browse-text"
-                                        >browse files</span
-                                    >
-                                </p>
-                                <p class="file-info">
-                                    Supports: JPG, PNG, GIF, BMP • Max size:
-                                    10MB per file
-                                </p>
-                            </div>
-                            <input
-                                type="file"
-                                id="fileInput"
-                                multiple
-                                accept="image/jpeg,image/jpg,image/png,image/gif,image/bmp"
-                                hidden
-                            />
-                        </div>
-
-                        <!-- Quality Settings -->
-                        <div class="quality-settings">
-                            <label for="qualitySlider" class="quality-label">
-                                Quality: <span id="qualityValue">85</span>%
+        </section>
+        
+        <!-- Converter Section -->
+        <section id="converter" class="converter-section" aria-labelledby="converter-heading">
+            <h2 id="converter-heading" class="section-title">Convert Your Images to WebP</h2>
+            
+            <div class="converter-card">
+                <!-- Upload Area -->
+                <div class="upload-area" id="uploadArea" tabindex="0" role="button" aria-label="Upload images for conversion">
+                    <div class="upload-icon">ðŸ“</div>
+                    <div class="upload-text">Drag &amp; drop images here or click to browse</div>
+                    <div class="upload-subtext">Supports: JPG, PNG, GIF, SVG, BMP, AVIF</div>
+                </div>
+                <input type="file" id="fileInput" class="file-input" multiple accept="image/*" aria-label="File input for image selection">
+                
+                <!-- Settings Panel -->
+                <div class="settings-panel">
+                    <div class="settings-grid">
+                        <div class="setting-group">
+                            <label for="qualitySlider" class="setting-label">
+                                Quality: <span class="quality-value" id="qualityValue">80</span>%
                             </label>
-                            <input
-                                type="range"
-                                id="qualitySlider"
-                                min="1"
-                                max="100"
-                                value="85"
-                                class="quality-slider"
-                            />
-                            <div class="quality-presets">
-                                <button class="preset-btn" data-quality="60">
-                                    Small
-                                </button>
-                                <button
-                                    class="preset-btn active"
-                                    data-quality="85"
-                                >
-                                    Balanced
-                                </button>
-                                <button class="preset-btn" data-quality="95">
-                                    High Quality
-                                </button>
-                            </div>
+                            <input type="range" id="qualitySlider" class="setting-input" min="1" max="100" value="80" aria-label="Quality slider for WebP compression">
                         </div>
-
-                        <!-- Conversion Results -->
-                        <div
-                            class="results-container"
-                            id="resultsContainer"
-                            style="display: none"
-                        >
-                            <h3 class="results-title">Conversion Results</h3>
-                            <div class="results-list" id="resultsList"></div>
-                            <div class="bulk-actions">
-                                <button
-                                    id="downloadAllBtn"
-                                    class="download-all-btn"
-                                >
-                                    Download All
-                                </button>
-                                <button id="clearAllBtn" class="clear-all-btn">
-                                    Clear All
-                                </button>
-                            </div>
+                        <div class="setting-group">
+                            <label for="maxWidth" class="setting-label">Max Width (px)</label>
+                            <input type="number" id="maxWidth" class="setting-input" placeholder="Original" aria-label="Maximum width in pixels">
+                        </div>
+                        <div class="setting-group">
+                            <label for="maxHeight" class="setting-label">Max Height (px)</label>
+                            <input type="number" id="maxHeight" class="setting-input" placeholder="Original" aria-label="Maximum height in pixels">
                         </div>
                     </div>
-                </section>
-
-                <!-- Features Section -->
-                <section class="features">
-                    <h2 class="features-title">
-                        Why Choose Our WebP Converter?
-                    </h2>
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <svg
-                                class="feature-icon"
-                                width="48"
-                                height="48"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                role="img"
-                                aria-label="Client-side processing security icon"
-                            >
-                                <circle cx="12" cy="12" r="3"></circle>
-                                <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"></path>
-                            </svg>
-                            <h3>Client-Side Processing</h3>
-                            <p>
-                                All conversion happens in your browser. Your
-                                images never leave your device, ensuring
-                                complete privacy and security.
-                            </p>
-                        </div>
-                        <div class="feature-card">
-                            <svg
-                                class="feature-icon"
-                                width="48"
-                                height="48"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                role="img"
-                                aria-label="Lightning fast WebP conversion speed icon"
-                            >
-                                <path
-                                    d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"
-                                ></path>
-                            </svg>
-                            <h3>Lightning Fast</h3>
-                            <p>
-                                Instant conversion with no upload or download
-                                delays. Convert multiple images simultaneously
-                                with batch processing.
-                            </p>
-                        </div>
-                        <div class="feature-card">
-                            <svg
-                                class="feature-icon"
-                                width="48"
-                                height="48"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                role="img"
-                                aria-label="High quality WebP image compression checkmark icon"
-                            >
-                                <path
-                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                ></path>
-                            </svg>
-                            <h3>High Quality</h3>
-                            <p>
-                                Advanced compression algorithms maintain image
-                                quality while reducing file size by up to 80%.
-                            </p>
-                        </div>
-                        <div class="feature-card">
-                            <svg
-                                class="feature-icon"
-                                width="48"
-                                height="48"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                role="img"
-                                aria-label="Mobile friendly responsive design icon"
-                            >
-                                <rect
-                                    x="2"
-                                    y="3"
-                                    width="20"
-                                    height="14"
-                                    rx="2"
-                                    ry="2"
-                                ></rect>
-                                <line x1="8" y1="21" x2="16" y2="21"></line>
-                                <line x1="12" y1="17" x2="12" y2="21"></line>
-                            </svg>
-                            <h3>Mobile Friendly</h3>
-                            <p>
-                                Responsive design works perfectly on all
-                                devices. Convert images on your phone, tablet,
-                                or desktop.
-                            </p>
-                        </div>
+                </div>
+                
+                <!-- Statistics Panel -->
+                <div class="stats-panel" role="region" aria-label="Conversion statistics">
+                    <div class="stat-card">
+                        <div class="stat-label">Total Files</div>
+                        <div class="stat-value" id="statFiles">0</div>
                     </div>
-                </section>
-
-                <!-- Enhanced FAQ Section -->
-                <section class="faq" id="faq">
-                    <h2 class="faq-title">Frequently Asked Questions About WebP Conversion</h2>
-                    <div class="faq-list">
-                        <div class="faq-item">
-                            <h3 class="faq-question">
-                                What is WebP format and why should I use it for SEO?
-                            </h3>
-                            <div class="faq-answer">
-                                <p>
-                                    WebP is a modern image format developed by
-                                    Google that provides superior compression
-                                    for web images. It reduces file sizes by
-                                    25-80% compared to JPEG and PNG while
-                                    maintaining the same visual quality,
-                                    resulting in faster website loading times
-                                    and better SEO rankings. Google considers page speed as a ranking factor, making WebP essential for modern websites.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <h3 class="faq-question">
-                                Is my data safe when using this WebP converter?
-                            </h3>
-                            <div class="faq-answer">
-                                <p>
-                                    Absolutely! All image conversion happens
-                                    locally in your browser using JavaScript.
-                                    Your images are never uploaded to our
-                                    servers or any third-party services. They
-                                    remain completely private on your device
-                                    throughout the entire process. This client-side processing ensures maximum privacy and GDPR compliance.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <h3 class="faq-question">
-                                What image formats can I convert to WebP online?
-                            </h3>
-                            <div class="faq-answer">
-                                <p>
-                                    Our free WebP converter supports the most common image
-                                    formats: JPEG/JPG, PNG, GIF, and BMP. You
-                                    can convert single images or multiple images
-                                    at once using our batch conversion feature. The tool works on all devices including mobile phones, tablets, and desktop computers.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <h3 class="faq-question">
-                                How do I choose the right WebP quality setting for my website?
-                            </h3>
-                            <div class="faq-answer">
-                                <p>
-                                    For most web images, 80-85% quality provides
-                                    the best balance of file size and visual
-                                    quality. Use 90-95% for images with fine
-                                    details or text, and 60-75% for images where
-                                    smaller file size is more important than
-                                    perfect quality. Our tool allows real-time quality adjustment to find the perfect balance.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <h3 class="faq-question">
-                                How much can WebP reduce my image file sizes?
-                            </h3>
-                            <div class="faq-answer">
-                                <p>
-                                    WebP typically reduces image file sizes by 25-80% compared to JPEG and PNG formats. The exact compression depends on your image content and quality settings. Our converter shows you the file size reduction in real-time, helping you optimize images for faster website loading and better user experience.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <h3 class="faq-question">
-                                Does WebP work on all browsers and devices?
-                            </h3>
-                            <div class="faq-answer">
-                                <p>
-                                    WebP is supported by all modern browsers including Chrome, Firefox, Safari, and Edge. For older browsers, you can implement fallback images using HTML picture tags. Our converter works on any device with a modern web browser, making it perfect for mobile and desktop use.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Original Size</div>
+                        <div class="stat-value" id="statOriginal">0 KB</div>
                     </div>
-                </section>
-            </div>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <p>&copy; 2025 WebPImage.Online. Free WebP Converter Tool.</p>
-                <p>
-                    Convert images to WebP format for better web performance and
-                    SEO. All processing happens locally in your browser for maximum privacy.
-                </p>
-                <div class="footer-links">
-                    <a href="/privacy-policy" rel="nofollow">Privacy Policy</a> | 
-                    <a href="/terms-of-service" rel="nofollow">Terms of Service</a> | 
-                    <a href="/sitemap.xml" rel="nofollow">Sitemap</a>
+                    <div class="stat-card">
+                        <div class="stat-label">WebP Size</div>
+                        <div class="stat-value" id="statWebp">0 KB</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Saved</div>
+                        <div class="stat-value" id="statSaved">0%</div>
+                    </div>
+                </div>
+                
+                <!-- Files Container -->
+                <div class="files-container" id="filesContainer"></div>
+                
+                <!-- Bulk Actions -->
+                <div class="bulk-actions">
+                    <button class="btn btn-primary" id="convertAllBtn" disabled>Convert All</button>
+                    <button class="btn btn-primary" id="downloadAllBtn" disabled>Download All</button>
+                    <button class="btn btn-secondary" id="clearAllBtn" disabled>Clear All</button>
                 </div>
             </div>
-        </footer>
-
-        <!-- Loading Overlay -->
-        <div class="loading-overlay" id="loadingOverlay" style="display: none">
-            <div class="loading-spinner"></div>
-            <p class="loading-text">Converting images...</p>
+        </section>
+        
+        <!-- Features Section -->
+        <section id="features" class="features-section" aria-labelledby="features-heading">
+            <h2 id="features-heading" class="section-title">Why Choose Our WebP Converter?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">âš¡</div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p class="feature-description">
+                        Browser-based processing with instant results. No server uploads, no waiting. Convert hundreds of images in seconds using HTML5 Canvas API.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">ðŸ”’</div>
+                    <h3 class="feature-title">Privacy First</h3>
+                    <p class="feature-description">
+                        Your files never leave your device. All conversions happen locally in your browser. 100% secure, no data collection, complete privacy guaranteed.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">ðŸ“Š</div>
+                    <h3 class="feature-title">Real-Time Analytics</h3>
+                    <p class="feature-description">
+                        See exact size savings, compression ratios, and before/after comparisons. Track your optimization success with transparent metrics.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">âš™ï¸</div>
+                    <h3 class="feature-title">Advanced Controls</h3>
+                    <p class="feature-description">
+                        Fine-tune quality settings from 1-100%, set custom dimensions, and maintain aspect ratios. Professional-grade compression at your fingertips.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">ðŸ”„</div>
+                    <h3 class="feature-title">Bulk Processing</h3>
+                    <p class="feature-description">
+                        Convert multiple images simultaneously. No file size limits, no quantity restrictions. Process your entire image library in one session.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">ðŸš€</div>
+                    <h3 class="feature-title">SEO Boost</h3>
+                    <p class="feature-description">
+                        Achieve 25-35% smaller file sizes vs JPEG per Google. Improve page speed, Core Web Vitals, and search rankings with optimized WebP images.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section" aria-labelledby="faq-heading">
+            <h2 id="faq-heading" class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>Is my data safe when using this converter?</span>
+                        <span class="faq-toggle">â–¼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Absolutely safe! Your files never leave your device. All processing happens locally in your browser using client-side technology. 
+                            We don't have servers collecting your images, and we don't track what you convert. Your privacy is 100% guaranteed.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>How fast is the conversion process?</span>
+                        <span class="faq-toggle">â–¼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Conversion is nearly instantaneous. Processing happens directly in your browser using the HTML5 Canvas API, with no server uploads required. 
+                            The speed depends on your device's processing power and image file sizes, but most conversions complete in under a second per image.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>Which image formats are supported?</span>
+                        <span class="faq-toggle">â–¼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We support all major image formats: JPG, JPEG, PNG, GIF (including animated), SVG, BMP, and AVIF. 
+                            All formats are converted to WebP while preserving transparency when applicable. SVG files are rasterized during conversion.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>How does WebP improve SEO and website performance?</span>
+                        <span class="faq-toggle">â–¼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            According to Google, WebP images are 25-34% smaller than JPEG and 26% smaller than PNG at equivalent quality. 
+                            Smaller images improve page load speed, which is a Core Web Vitals ranking factor. Faster loading improves user experience, 
+                            reduces bounce rates, and signals quality to search enginesâ€”all contributing to better SEO rankings.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>Are there file size or quantity limits?</span>
+                        <span class="faq-toggle">â–¼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            No limits! Process as many images as you want, with any file size. Since all processing happens locally in your browser, 
+                            the only limitation is your device's available memory. Our tool is completely free with unlimited conversionsâ€”no hidden fees or restrictions.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>Can I resize and compress images during conversion?</span>
+                        <span class="faq-toggle">â–¼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! You can adjust quality settings from 1-100% to control compression levels. You can also set maximum width or height dimensions, 
+                            and the converter will automatically maintain aspect ratios. This gives you professional-grade control over file size and image quality.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+                        <span>What browsers support WebP images?</span>
+                        <span class="faq-toggle">â–¼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            WebP is supported by 96.3% of browsers globally according to CanIUse. This includes all modern versions of Chrome, Firefox, 
+                            Safari (version 14+), Edge, and Opera. Only legacy browsers like Internet Explorer lack support. For maximum compatibility, 
+                            consider implementing fallback images for older browsers.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About webpimage.online</h3>
+                <p style="color: var(--color-text-secondary); line-height: 1.7;">
+                    Free, privacy-focused WebP converter designed for web developers, content creators, and SEO professionals. 
+                    Convert images to WebP format instantly with advanced compression controls.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#converter">Converter</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                       <h3>Resources</h3>
+                       <ul class="footer-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                 <li><a href="disclaimer.html">Disclaimer</a></li>
+              <li><a href="terms.html">Terms</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         <li><a href="https://developers.google.com/speed/webp" target="_blank" rel="noopener noreferrer">WebP Documentation</a></li>
+       </ul>
+          
         </div>
-
-        <!-- JavaScript -->
-        <script src="script.js"></script>
+        <div class="footer-bottom">
+            <p>&copy; 2025 webpimage.online. All rights reserved. Files processed locally - your privacy guaranteed.</p>
+        </div>
+    </footer>
+    
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
     </body>
-</html>
+    </html>
